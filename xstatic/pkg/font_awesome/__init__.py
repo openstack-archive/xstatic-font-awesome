@@ -11,7 +11,7 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
                                # please use a all-lowercase valid python
                                # package name
 
-VERSION = '4.5.0' # version of the packaged files, please use the upstream
+VERSION = '4.7.0' # version of the packaged files, please use the upstream
                   # version number
 BUILD = '0' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
@@ -24,14 +24,14 @@ CLASSIFIERS = []
 KEYWORDS = '%s xstatic' % NAME
 
 # XStatic-* package maintainer:
-MAINTAINER = 'Radomir Dopieralski'
-MAINTAINER_EMAIL = 'openstack@sheep.art.pl'
+MAINTAINER = 'Rob Cresswell'
+MAINTAINER_EMAIL = 'robert.cresswell@outlook.com'
 
 # this refers to the project homepage of the stuff we packaged:
 HOMEPAGE = 'https://fortawesome.github.io/Font-Awesome/'
 
 # this refers to all files:
-LICENSE = '(same as %s)' % DISPLAY_NAME
+LICENSE = 'SIL OFL 1.1'
 
 from os.path import join, dirname
 BASE_DIR = join(dirname(__file__), 'data')
