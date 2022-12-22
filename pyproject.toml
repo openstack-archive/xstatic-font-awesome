@@ -10,7 +10,7 @@ readme = "README.txt"
 authors = [
     {name = "Rob Cresswell", email="robert.cresswell@outlook.com"},
 ]
-requires-python = ">=3.6" 
+requires-python = ">=3.0" 
 license = { file = "xstatic/pkg/font_awesome/data/LICENSE.txt" }
 classifiers = [ "Environment :: Web Environment", "License :: OSI Approved :: SIL OFL-1.1", "Programming Language :: Python :: 3", "Topic :: Web Environment", ]
 keywords = [ "font_awesome" , "xstatic" ]
