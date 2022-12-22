@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "XStatic-Font-Awesome"
+version = "6.2.1.0"
+description= "Font-Awesome 6.2.1 (XStatic packaging standard)"
+readme = "README.txt"
+authors = [
+    {name = "Rob Cresswell", email="robert.cresswell@outlook.com"},
+]
+requires-python = ">=3.6" 
+license = { file = "xstatic/pkg/font_awesome/data/LICENSE.txt" }
+classifiers = [ "Environment :: Web Environment", "License :: OSI Approved :: SIL OFL-1.1", "Programming Language :: Python :: 3", "Topic :: Web Environment", ]
+keywords = [ "font_awesome" , "xstatic" ]
+dependencies = [ "XStatic >= 1.0.2", ]
+
+
+[tool.pdm.build]
+includes = [ "xstatic", "xstatic.pkg" ]
+
+
+[project.urls]
+homepage = "https://fontawesome.com/"
+documentation = "https://fontawesome.com/docs"
+repository =  "https://github.com/FortAwesome/Font-Awesome"
