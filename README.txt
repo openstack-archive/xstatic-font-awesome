@@ -1,13 +1,15 @@
-XStatic-Font-Awesome
---------------
+This project is no longer maintained under OpenStack.
 
-Font Awesome icons packaged for setuptools (easy_install) / pip.
+The contents of this repository are still available in the Git
+source code management system. To see the contents of this
+repository before it reached its end of life, please check out the
+previous commit with "git checkout HEAD^1".
 
-This package is intended to be used by **any** project that needs these files.
+Now this project is maintained by MoinMoin contributors and they are
+maintaining it under `xstatic-font-awesome`_
 
-It intentionally does **not** provide any extra code except some metadata
-**nor** has any extra requirements. You MAY use some minimal support code from
-the XStatic base package, if you like.
+.. _xstatic-font-awesome: https://github.com/xstatic-py/xstatic-font-awesome
 
-You can find more info about the xstatic packaging way in the package `XStatic`.
-
+For any further questions, please email 
+openstack-discuss@lists.openstack.org or join #openstack-horizon on
+OFTC.
